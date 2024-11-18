@@ -18,10 +18,9 @@ while (emailVerificate === false){
   } else {
     i++;
   }
-  if (emailInserita !== emailAutorizzate[i]){
-    emailVerificate === false
+  if (i === emailAutorizzate.length){
+    emailVerificate === true
     message = 'L\'email non risulta nell\'elenco'
   }
-  
-  
 }
+console.log(message);
