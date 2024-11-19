@@ -1,3 +1,4 @@
+// VARIABILI
 const emailAutorizzate = [
   "simone@gmail.com",
   "massimo@hotmail.com",
@@ -11,16 +12,18 @@ let message = ''
 let emailVerificate = false
 let i = 0;
 
+//LOGICA CON WHILE
 while (emailVerificate === false){
   if (emailInserita === emailAutorizzate[i]){
-    emailVerificate === true
+    emailVerificate = true
     message = 'L\'email risulta nell\'elenco'
   } else {
     i++;
   }
   if (i === emailAutorizzate.length){
-    emailVerificate === true
+    emailVerificate = true
     message = 'L\'email non risulta nell\'elenco'
   }
 }
-console.log(message);
+// STAMPO IL MESSAGGIO
+console.log(message); 
