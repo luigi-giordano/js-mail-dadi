@@ -19,14 +19,3 @@ Consigli del giorno:
 
 BONUS
 Consentire solo l’inserimento di dati validi
-
-
-
-
-1- stabilire 2 variabili, giocatore e computer
-2- generare due numeri random da 1 a 6
-3- confronto i due numeri usciti, vince il numero maggiore
-4- stampo il mumero maggiore
-
-
-
